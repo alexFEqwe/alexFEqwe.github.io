@@ -1,0 +1,98 @@
+.proj_zag {
+    text-align: center;
+    font-size: 65px;
+    font-weight: bolder;
+}
+
+@media (max-width: 577px) {
+    .proj_zag {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bolder;
+    }
+}
+
+@media (min-width: 767px) {
+    .proj_zag {
+        text-align: center;
+        font-size: 60px;
+        font-weight: bolder;
+    }
+}
+
+.proj-link {
+    background-color: rgb(66, 60, 109);
+    border-radius: 100px;
+    color: rgb(212, 212, 212);
+    width: 200px;
+    height: 65px;
+    margin-top: 16px;
+    text-align: center;
+    display: inline-block;
+    line-height: 65px;
+}
+
+.proj-link:hover {
+    text-decoration: underline;
+    box-shadow: 3px 3px 3px 3px black;
+    background-color: rgb(105, 99, 154);
+    color: black;
+}
+
+.a_nav.active {
+    color: rgb(66, 60, 109);
+}
+
+.car_img {
+    width: 100%;
+    height: 400px;
+}
+
+@media (max-width: 577px) {
+    .car_img {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+.carousel-control-next {
+    right: 0;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-image: url("../images/arrow2 .png");
+    height: 35px;
+    width: 35px;
+    opacity: 1;
+}
+.carousel-control-next-icon {
+    transform: rotate(90deg);
+}
+
+.carousel-control-prev-icon {
+    transform: rotate(-90deg);
+}
+
+ .slide-button {
+     opacity: .8;
+    /*background: rgba(0, 0, 0, 0.66);*/
+}
+
+ .carousel-indicators li {
+     background-color: #483D8B;
+ }

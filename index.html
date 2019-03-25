@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>final project</title>
+</head>
+<body id="large-header">
+<canvas id="demo-canvas" width="1136" height="969"></canvas>
+<header id="header">
+    <div class="header_countainer countainer">
+        <div>
+            <h1>Александра Пилипенко</h1>
+        </div>
+        <div>
+            <h3>Инженер информационно-телекоммуникационных систем / Специалист отдела сопровождения платежей</h3>
+        </div>
+        <nav class="nav">
+            <ul class="ul_nav list">
+                <li class="li_nav">
+                    <a class="a_nav active list__link" href="index.html">Главная</a>
+                </li>
+                <li class="li_nav">
+                    <a class="a_nav list__link" href="pages/smry.html">Резюме</a>
+                </li>
+                <li class="li_nav">
+                    <a class="a_nav list__link" href="pages/projects.html">Проекты</a>
+                </li>
+                <li class="li_nav">
+                    <a class="a_nav list__link" href="pages/contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="backdrop" id="backdrop"></div>
+        <button class="hamburger" id="jsBurger">
+            <span class="hamburger__icon"></span>
+        </button>
+    </div>
+</header>
+<main>
+    <div class="countainer ">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <img class="countainer_img" src="images/pa.jpg" alt="pa">
+            </div>
+            <div class="col-12 col-md-8">
+                <span class="span_hello">Привет,</span>
+                <br>
+                <span class="span_hello2">Будем знакомы:</span>
+                <br>
+                <hr>
+                <div class="text-center">
+                    <a href="pages/smry.html" class="rec-link red">
+                        Резюме
+                    </a>
+                    <a href="pages/projects.html" class="rec-link blue">
+                        Проекты
+                    </a>
+                    <a href="pages/contacts.html" class="rec-link yellow">
+                        Контакты
+                    </a>
+                </div>
+                <hr>
+                <span class="line_span3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</span>
+            </div>
+        </div>
+    </div>
+    <a title="Вернуться к началу" class="topbutton"  id="topbutton"><img src="images/arrow.png" alt="arrow"></a>
+</main>
+<footer class="footer">
+    <div class="countainer">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-sm-3">
+                <img class="img_footer" src="images/handphone.png" alt="handphone">
+                <span class="span_footer">Звоните</span>
+                <br>
+                <span>T. +38(093)386-55-15</span>
+            </div>
+            <div class="col-12 col-sm-6 col-sm-3">
+                <img class="img_footer" src="images/mail-black.png" alt="mail-black">
+                <span class="span_footer">Пишите</span>
+                <br>
+                <span>t.me/@FeelTheSilence</span>
+                <br>
+                <span>mail: listen_my_voice@ukr.net</span>
+            </div>
+            <div class="col-12 col-sm-6 col-sm-3">
+                <img class="img_footer" src="images/plus.png" alt="plus">
+                <span class="span_footer">Заходите</span>
+                <br>
+                <a href="https://www.facebook.com/profile.php?id=100015955872764">
+                    <img class="img_footer" src="images/facebook.png" alt="facebook">
+                </a>
+                <a href="https://twitter.com/Eirin_Thiers">
+                    <img class="img_footer" src="images/twitter.png" alt="twitter">
+                </a>
+                <a href="https://www.youtube.com">
+                    <img class="img_footer" src="images/google-plus.png" alt="google-plus">
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-sm-3">
+                <img class="img_footer" src="images/copyright.png" alt="copyright">
+                <span class="span_footer">(с) 2019 Александра Пилипенко</span>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/main.js"></script>
+<script src="js/Lite.min.js"></script>
+<script src="js/Pack.min.js"></script>
+<script src="js/demo_1.js"></script>
+</body>
+</html>

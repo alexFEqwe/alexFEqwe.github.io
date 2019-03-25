@@ -1,0 +1,38 @@
+.smry_zag {
+    text-align: center;
+    font-size: 65px;
+    font-weight: bolder;
+}
+
+@media (max-width: 577px) {
+    .smry_zag {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bolder;
+    }
+}
+
+.smry {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(66, 60, 109);
+    border: 0;
+    border-radius: 30%;
+    text-align: center;
+    padding-top: 45px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.smry:hover {
+    text-decoration: underline;
+    box-shadow: 3px 3px 3px 3px black;
+    background-color: rgb(105, 99, 154);
+    color: black;
+}
+
+.a_nav.active {
+    color: rgb(66, 60, 109);
+}
